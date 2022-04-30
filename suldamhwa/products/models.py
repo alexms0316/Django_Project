@@ -69,7 +69,7 @@ class OrderItem(TimeStampModel):
     count      = models.PositiveIntegerField()
     price      = models.DecimalField(max_digits=8, decimal_places=2)
     is_checked = models.BooleanField(default=True)
-    order      = models.ForeignKey("Order", on_delete=models.CASCADE)
+    order      = models.ForeignKey("Order", on_delete=models.CASCADE, blank=True)
 
     class Meta:
         db_table = 'orderitems'
