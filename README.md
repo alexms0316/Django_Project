@@ -14,3 +14,12 @@ This is repository for Web_Development_Project. using python &amp; Django
 
 - Create git branch
 - startapp 'users', 'products', 'core'
+
+## 3. Signup, Login
+
+- Signup View
+- Define URLconf(Signup)
+- Login View
+- Define URLconf(Login)
+- Encryption
+- Access token
