@@ -22,6 +22,7 @@
 1. Initial-Settings
 - virtual env
 - create DB
+- [Untitled.pdf](https://github.com/alexms0316/Django_Project/files/8645418/Untitled.pdf)
 - project repository Clone
 - Django project
 - .gitignore
@@ -34,8 +35,10 @@
 3. Signup, Login
 - Signup View
 - Define URLconf(Signup)
+- ![회원가입](https://user-images.githubusercontent.com/98144690/167259752-29267309-66f2-4899-a35b-5dfd2f2b8bc1.gif)
 - Login View
 - Define URLconf(Login)
+- ![로그인](https://user-images.githubusercontent.com/98144690/167259757-a4826848-993e-4e58-a650-f729103cb178.gif)
 - Encryption
 - Access token
 
@@ -45,9 +48,13 @@
 
 5. Product Views
 - Productlist View
+- ![메인페이지](https://user-images.githubusercontent.com/98144690/167259725-8b473e55-43df-440d-8e26-ff29d34ec526.gif)
 - Productdetail View
+- ![상세페이지](https://user-images.githubusercontent.com/98144690/167259741-5d87f1d4-0176-4759-b4e9-09195eb785b1.gif)
 - Comment View
 - Subscribe View
+- ![구독서비스](https://user-images.githubusercontent.com/98144690/167259748-8b0d036f-1a6c-48fa-a8f3-9ee26714b761.gif)
+
 - Define URLconf(Productlist, Productdetail, Comment, Subscribe)
 
 ## API Documentation
