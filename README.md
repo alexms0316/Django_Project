@@ -1,8 +1,27 @@
 # Django_Project
-This is repository for Web_Development_Project. using python &amp; Django
 
-## 1. Initial-Settings
+## Introduction
 
+- This is repository for Web_Development_Project. using python &amp; Django
+- 2022.04.25 ~2022.05.06
+
+## Technologies
+- Python
+- Django
+- JWT
+- bcrypt
+- MySQL
+- CORS headers
+- RESTful API
+- Git
+- Trello
+- Slack
+- Notion
+- Google Spreadsheet
+
+## Modeling / Features
+
+1. Initial-Settings
 - virtual env
 - create DB
 - project repository Clone
@@ -10,13 +29,11 @@ This is repository for Web_Development_Project. using python &amp; Django
 - .gitignore
 - python manage.py runserver
 
-## 2. modelings
-
+2. modelings
 - Create git branch
 - startapp 'users', 'products', 'core'
 
-## 3. Signup, Login
-
+3. Signup, Login
 - Signup View
 - Define URLconf(Signup)
 - Login View
@@ -24,7 +41,12 @@ This is repository for Web_Development_Project. using python &amp; Django
 - Encryption
 - Access token
 
-## 4. DB_uploader.py
-
+4. DB_uploader.py
 - CSV Files
 - DB_uploader.py
+
+5. Product Views
+- Productlist View
+- Define URLconf(Productlist)
+- Productdetail View
+- Define URLconf(Productdetail)
