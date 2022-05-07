@@ -35,6 +35,7 @@ class SignupView(View):
                 name      = data['name'],
                 nick_name = data['nick_name']
                 )
+
             return JsonResponse({'message':'SUCCESS'}, status=201)
         except KeyError:
             return JsonResponse({'message':'KEY_ERROR'}, status=400)
@@ -42,6 +43,21 @@ class SignupView(View):
             return JsonResponse({'message':'VALIDATION_ERROR'}, status=400)
         except JSONDecodeError:
             return JsonResponse({'message':'JSON_DECODE_ERROR'}, status=400)
+
+class EmailValidateView(View):
+    def post(self, request):
+        try:
+            data  = json.loads(request.body)
+            email = data['email']
+
+            email_validate(email)
+
+            if User.objects.filter(email = email).exists():
+                return JsonResponse({'message' :'ALREADY_EXISTS_EMAIL'}, status=400)
+
+            return JsonResponse({'message':'SUCCESS'}, status=201)
+        except ValidationError:
+            return JsonResponse({'message':'VALIDATION_ERROR'}, status=400)
 
 class LoginView(View):
     def post(self, request):
