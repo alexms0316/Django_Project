@@ -23,3 +23,8 @@ This is repository for Web_Development_Project. using python &amp; Django
 - Define URLconf(Login)
 - Encryption
 - Access token
+
+## 4. DB_uploader.py
+
+- CSV Files
+- DB_uploader.py
