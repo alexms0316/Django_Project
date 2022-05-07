@@ -45,6 +45,10 @@
 
 5. Product Views
 - Productlist View
-- Define URLconf(Productlist)
 - Productdetail View
-- Define URLconf(Productdetail)
+- Comment View
+- Subscribe View
+- Define URLconf(Productlist, Productdetail, Comment, Subscribe)
+
+## API Documentation
+https://documenter.getpostman.com/view/20637607/UyxdKpCk
