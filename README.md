@@ -50,11 +50,14 @@
 5. Product Views
 - Productlist View
 ![메인페이지](https://user-images.githubusercontent.com/98144690/167259725-8b473e55-43df-440d-8e26-ff29d34ec526.gif)
+
 - Productdetail View
 ![상세페이지](https://user-images.githubusercontent.com/98144690/167259741-5d87f1d4-0176-4759-b4e9-09195eb785b1.gif)
+
 - Comment View
 - Subscribe View
 ![구독서비스](https://user-images.githubusercontent.com/98144690/167259748-8b0d036f-1a6c-48fa-a8f3-9ee26714b761.gif)
+
 - Define URLconf(Productlist, Productdetail, Comment, Subscribe)
 
 ## API Documentation
