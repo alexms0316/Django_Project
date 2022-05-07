@@ -36,10 +36,14 @@
 3. Signup, Login
 - Signup View
 - Define URLconf(Signup)
+
 ![회원가입](https://user-images.githubusercontent.com/98144690/167259752-29267309-66f2-4899-a35b-5dfd2f2b8bc1.gif)
+
 - Login View
 - Define URLconf(Login)
+
 ![로그인](https://user-images.githubusercontent.com/98144690/167259757-a4826848-993e-4e58-a650-f729103cb178.gif)
+
 - Encryption
 - Access token
 
